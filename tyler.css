@@ -1,0 +1,49 @@
+body {
+    background-color:black;
+    margin:64px;
+}
+
+.quote {
+    color:white;
+    font-family:monospace;
+    font-weight:100;
+    font-size:17px;
+    text-align:center;
+    margin-top:150px;
+}
+
+.time-em {
+    color:rgb(113, 62, 155);
+}
+
+.fatherdiv {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:500px;
+}
+
+button {
+    color:white;
+    background-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:monospace, arial;
+    padding:10px;
+    height:90px;
+    width:90px;
+    border-radius:45px;
+    cursor:pointer;
+}
+.star-image {
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:rgb(27, 27, 27);
+    transition: background-color 1s;
+}
+
+button:active {
+    background-color:rgb(113, 62, 155);
+    transition: background-color 0.15s;
+}
